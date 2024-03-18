@@ -51,8 +51,8 @@
     font-size: 24px;
   }
   
-  .btn-branding {
-    background: var(--branding-color);
+  .btn-contact {
+    background:  #6c63ff;
     border-radius: 4px;
     color: white;
     font-size: 18px;
@@ -60,8 +60,12 @@
     padding: 15px 30px;
     border: 2px solid black;
   }
+
+  
   
 
   .btn:hover {
     color: #212529;
-}
+     background: var(--branding-color);
+    
+  }
