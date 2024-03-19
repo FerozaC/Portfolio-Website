@@ -45,14 +45,14 @@ h3{
     padding: 100px 20px;
   }
   
-  .hero p {
+  .intro p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
     color: #272142;
   }
   
-  .hero h2 {
+  .intro h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
     line-height: 1.5;
@@ -227,7 +227,7 @@ h3{
       font-size: 26px;
     }
   
-    .hero {
+    .intro {
       padding: 80px 20px;
     }
   
@@ -240,5 +240,44 @@ h3{
       padding: 0;
       text-align: center;
     }
+  }
+
+  footer {
+    margin: 40px 0px;
+  }
+  
+  footer .contact-box {
+    background: var(--secondary-color);
+    padding: 15px 60px;
+    border-radius: 10px;
+  }
+  
+  footer .contact-box p {
+    margin: 0;
+  }
+  
+  footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  footer .email-link:hover {
+    color: var(--branding-color);
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 5px 7px;
+    border-radius: 50%;
+    font-size: 13px;
+    transition: all 100ms ease-in-out;
+  }
+  
+  footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
   }
   
