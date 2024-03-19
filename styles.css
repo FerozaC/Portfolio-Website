@@ -28,6 +28,10 @@
   h2 {
     font-size: 64px;
   }
+
+h3{
+    font-size: 48px;
+}
   
   p {
     font-weight: normal;
@@ -35,10 +39,10 @@
     line-height: 30px;
   }
   
-  .hero {
+  .intro {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px;
   }
   
   .hero p {
@@ -116,8 +120,8 @@
       font-size: 44px;
     }
   
-    .hero {
-      padding: 80px 20px;
+    .intro {
+      padding: 70px 20px;
     }
   
     .content {
@@ -219,7 +223,7 @@
       font-size: 44px;
     }
   
-    h4 {
+    h3 {
       font-size: 26px;
     }
   
